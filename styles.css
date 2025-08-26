@@ -7,7 +7,22 @@
 .container {
     display: flex;
 }
+.right{
+    display: flex;
+    justify-content: center;
 
+    margin: 25px;
+}
 #background {
-    width: 300px;
+    height: 100vh;
+    width: auto;
+}
+#logo-overlay {
+  position: absolute;
+  top: 333px;     /* adjust vertical position */
+  left: 170px;    /* adjust horizontal position */
+  width: 200px;  /* size of the logo */
+}
+a#log-in {
+    color: aqua;
 }
