@@ -8,9 +8,16 @@
     margin: 50px;
     justify-content: center;
 }
+div.paragraph {
+    margin-bottom: 20px;
+}
 .description{
     font-size: large;
     font-weight: bold;
+}
+h4 {
+    font-size: large;
+    margin-bottom: 15px;
 }
 .left {
     display: flex;
@@ -30,8 +37,19 @@
 #logo-overlay {
   position: absolute;
   top: 333px;     /* adjust vertical position */
-  left: 170px;    /* adjust horizontal position */
+  left: 530px;    /* adjust horizontal position */
   width: 200px;  /* size of the logo */
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* space between form groups */
+}
+input {
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
 }
 a#log-in {
     color: rgb(13, 74, 4);
