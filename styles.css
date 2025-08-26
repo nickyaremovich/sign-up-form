@@ -2,13 +2,15 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Segoe UI', sans-serif;
 }
 .container {
     display: flex;
-    margin: 50px;
+    margin: 0px 50px;
     justify-content: center;
 }
 div.paragraph {
+    margin-top: 80px;
     margin-bottom: 20px;
 }
 .description{
@@ -34,23 +36,54 @@ h4 {
     height: auto;
     width: 500px;
 }
-#logo-overlay {
-  position: absolute;
-  top: 333px;     /* adjust vertical position */
-  left: 530px;    /* adjust horizontal position */
-  width: 200px;  /* size of the logo */
+.form {
+    margin: 50px 0px;
+}
+.form-row {
+  display: flex;
+  gap: 30px;
 }
 form {
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 10px;
+}
+.form-group {
+  flex: 1;
   display: flex;
   flex-direction: column;
-  gap: 10px; /* space between form groups */
 }
 input {
-  padding: 10px;
-  margin-top: 5px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+   padding: 10px;
+   margin-top: 5px;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+}
+label {
+   margin-top: 7.5px;
+   margin-bottom: 5px;         /* space between label and input */
+   font-size: 14px;
+   text-transform: uppercase;   /* optional: makes labels feel sleek */
+   letter-spacing: 0.5px; 
+}
+button {
+   margin-top: 25px;
+   padding: 6px;
+   background-color: #165418;
+   color: white;
+   border: none;
+   border-radius: 4px;
+   font-size: 16px;
+   cursor: pointer;
+   width: 12rem;
+}
+button:hover {
+    background-color: white;
+    color: #165418;
+    border: 0.5px solid #165418;
+}
+.log-in {
+    margin-top: 10px;
 }
 a#log-in {
-    color: rgb(13, 74, 4);
+    color: #165418;
 }
