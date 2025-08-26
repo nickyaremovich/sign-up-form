@@ -4,6 +4,9 @@
     padding: 0;
     font-family: 'Segoe UI', sans-serif;
 }
+body{
+    background-color: rgb(229, 229, 229);
+}
 .container {
     display: flex;
     margin: 0px 50px;
@@ -60,10 +63,18 @@ input {
 }
 label {
    margin-top: 7.5px;
-   margin-bottom: 5px;         /* space between label and input */
+   margin-bottom: 5px;
    font-size: 14px;
-   text-transform: uppercase;   /* optional: makes labels feel sleek */
+   text-transform: uppercase;   
    letter-spacing: 0.5px; 
+}
+input:focus {
+  border-color: #165418;
+  box-shadow: 0 0 8px rgba(76, 175, 80, 0.5);
+  outline: none;
+}
+input:invalid {
+  border-color: #e53935;
 }
 button {
    margin-top: 25px;
