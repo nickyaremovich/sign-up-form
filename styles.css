@@ -3,19 +3,29 @@
     margin: 0;
     padding: 0;
 }
-
 .container {
+    display: flex;
+    margin: 50px;
+    justify-content: center;
+}
+.description{
+    font-size: large;
+    font-weight: bold;
+}
+.left {
     display: flex;
 }
 .right{
-    display: flex;
-    justify-content: center;
-
-    margin: 25px;
+    width: 600px;
+    padding: 40px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-right: 60px;
+    border-radius: 8px;
 }
 #background {
-    height: 100vh;
-    width: auto;
+    height: auto;
+    width: 500px;
 }
 #logo-overlay {
   position: absolute;
@@ -24,5 +34,5 @@
   width: 200px;  /* size of the logo */
 }
 a#log-in {
-    color: aqua;
+    color: rgb(13, 74, 4);
 }
